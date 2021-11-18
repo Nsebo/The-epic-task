@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.card-one {
+  width: 65%;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px whitesmoke, -10px -10px 5px whitesmoke;
+}
+
+h1,
+h3 {
+  color: rgb(49, 113, 165);
+}
+
+p {
+  font-size: 1.5em;
+  padding: 2px;
+}
+
+.features {
+  font-size: 1.5em;
+  border: 5px solid rgb(243, 241, 241);
+}
+
+.time {
+  margin-left: 50%;
+}
+
+.card-two {
+  width: 65%;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px whitesmoke, -10px -10px 5px whitesmoke;
+}
